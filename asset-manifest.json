@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/divisibility_rules/static/css/main.006239ed.css",
+    "main.js": "/divisibility_rules/static/js/main.f7158e3b.js",
+    "static/js/488.b8de9292.chunk.js": "/divisibility_rules/static/js/488.b8de9292.chunk.js",
+    "index.html": "/divisibility_rules/index.html",
+    "main.006239ed.css.map": "/divisibility_rules/static/css/main.006239ed.css.map",
+    "main.f7158e3b.js.map": "/divisibility_rules/static/js/main.f7158e3b.js.map",
+    "488.b8de9292.chunk.js.map": "/divisibility_rules/static/js/488.b8de9292.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.006239ed.css",
+    "static/js/main.f7158e3b.js"
+  ]
+}
