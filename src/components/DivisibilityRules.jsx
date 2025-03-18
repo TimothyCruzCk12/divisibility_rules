@@ -31,10 +31,13 @@ const DivisibilityRules = () => {
 
   const handleNumberChange = (e) => {
     const value = e.target.value;
-    // Allow empty value or valid numbers up to 1000
-    if (value === '' || (/^\d+$/.test(value) && parseInt(value) <= 1000)) {
-      setNumber(value);
-      resetState();
+    // Only allow digits (no 'e', '.', etc.)
+    if (value === '' || /^\d+$/.test(value)) {
+      // Check if the number is within the allowed range
+      if (value === '' || parseInt(value) <= 1000000) {
+        setNumber(value);
+        resetState();
+      }
     }
   };
 
@@ -201,13 +204,13 @@ const DivisibilityRules = () => {
             <div className="flex space-x-2">
               <input
                 id="numberInput"
-                type="number"
+                type="text"
+                inputMode="numeric"
+                pattern="[0-9]*"
                 value={number}
                 onChange={handleNumberChange}
-                placeholder="Enter (1-1000)"
+                placeholder="Enter (1-1,000,000)"
                 className="w-full text-base p-1 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500"
-                min="1"
-                max="1000"
               />
               <button 
                 onClick={checkDivisibility} 
