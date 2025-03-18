@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/divisibility_rules/static/css/main.5f173336.css",
-    "main.js": "/divisibility_rules/static/js/main.616100ce.js",
+    "main.js": "/divisibility_rules/static/js/main.27afc985.js",
     "static/js/488.b8de9292.chunk.js": "/divisibility_rules/static/js/488.b8de9292.chunk.js",
     "index.html": "/divisibility_rules/index.html",
     "main.5f173336.css.map": "/divisibility_rules/static/css/main.5f173336.css.map",
-    "main.616100ce.js.map": "/divisibility_rules/static/js/main.616100ce.js.map",
+    "main.27afc985.js.map": "/divisibility_rules/static/js/main.27afc985.js.map",
     "488.b8de9292.chunk.js.map": "/divisibility_rules/static/js/488.b8de9292.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f173336.css",
-    "static/js/main.616100ce.js"
+    "static/js/main.27afc985.js"
   ]
 }
